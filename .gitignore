@@ -1,0 +1,79 @@
+# Byte-compiled files
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Virtual environment
+venv/
+env/
+*.env
+*.venv
+
+# Python egg files
+*.egg
+*.egg-info/
+dist/
+build/
+*.manifest
+*.spec
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# PyCharm/VSCode specific
+.idea/
+.vscode/
+*.swp
+*.swo
+*.swn
+*.sublime-workspace
+*.sublime-project
+
+# Log files and temporary files
+*.log
+*.tmp
+*.temp
+*.bak
+*.backup
+*.orig
+
+# TensorFlow specific
+saved_model/
+*.tfrecord
+*.ckpt
+checkpoint
+__pycache__/
+
+# PySyft-specific
+node_modules/
+syft/__pycache__/
+syft/**/*.pyc
+
+# Cache files
+*.cache
+.cache/
+*.bak
+*.swp
+
+# Environment files
+*.env
+*.env.*
+
+# Dependency directories
+pip-wheel-metadata/
+pip-log.txt
+
+# Data and model artifacts
+data/
+models/
+*.h5
+*.pth
+*.pkl
+*.onnx
+
+# MacOS and Linux system files
+.DS_Store
+*.DS_Store
+Thumbs.db
+Desktop.ini
